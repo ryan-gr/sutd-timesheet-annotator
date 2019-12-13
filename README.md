@@ -7,6 +7,7 @@ You can now fill in your SUTD Students@Part-Time Work Scheme with (almost) zero 
 
 
 
+
 ## Example usage
 
 ```python
@@ -27,6 +28,7 @@ annotator.write_data(5, '02/01/2020', '0800', '1800', 10, 2, None, 'Usher', 'Eve
 
 annotator.output_to_file('January.pdf', open_file=True)
 ```
+
 
 
 
@@ -62,6 +64,7 @@ annotator.write_data(5, '02/01/2020', '0800', '1800', 10, 2, None, 'Usher', 'Eve
 annotator.write_data(6, None, None, None, None, None, 12, None, None)
 
 ```
+
 
 
 
